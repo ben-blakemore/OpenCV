@@ -1,7 +1,7 @@
 import cv2 as cv
 import sys
 
-img = cv.imread(cv.samples.findFile("meme_test.jpg"))
+img = cv.imread(cv.samples.findFile("resources/meme_test.jpg"))
 
 if img is None:
     sys.exit("Could not read image")
