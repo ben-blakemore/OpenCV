@@ -14,7 +14,7 @@ while True:
         print("Can't receive frame (stream end?). Exiting ...")
         break
     # Our operations on the frame come here
-    img = cv.cvtColor(frame, cv.COLOR_BGR2RGB)
+    img = cv.cvtColor(frame, cv.COLOR_BGR2RGBA)
 
     # get average pixel value
     average = math.floor(np.average(img))
